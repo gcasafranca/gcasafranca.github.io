@@ -1,0 +1,22 @@
+GUILLERMO CASAFRANCA — WEB PILOTO V4
+
+EN LAPTOP
+1. Abra index.html con Chrome, Edge o Firefox.
+
+ESTRUCTURA
+- index.html
+- style.css
+- script.js
+- assets/
+  - gc-logo.svg
+  - guillermo-hero.jpg
+  - guillermo-trayectoria.jpg
+
+EN CELULAR
+Para verla cómodamente desde el celular, lo ideal es publicarla temporalmente
+con GitHub Pages. Esta carpeta ya está preparada para ello.
+
+IMPORTANTE
+Esta es una versión PILOTO privada. El correo, WhatsApp, LinkedIn y formulario
+son demostrativos y deberán reemplazarse por los datos que Guillermo autorice
+antes de publicar.
