@@ -19,10 +19,12 @@ toggle?.addEventListener('click', () => {
     nav.style.alignItems = 'stretch';
 });
 
-// Cerrar automáticamente el menú al seleccionar una sección
+// Cerrar automáticamente el menú móvil al seleccionar una sección
 nav?.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
-        nav.dataset.open = '0';
-        nav.style.display = 'none';
+        if (window.innerWidth <= 560) {
+            nav.dataset.open = '0';
+            nav.style.display = 'none';
+        }
     });
 });
