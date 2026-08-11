@@ -23,6 +23,6 @@ toggle?.addEventListener('click', () => {
 nav?.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
         nav.dataset.open = '0';
-        nav.style.display = '';
+        nav.style.display = 'none';
     });
 });
